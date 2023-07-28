@@ -1,0 +1,587 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.home {
+    background-image: url(../images/images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.home h2 {
+    position: relative;
+}
+.fon{
+    font-family: 'Montserrat', sans-serif;
+}
+.home h2::after {
+    content: "";
+    animation: content 10s infinite;
+}
+
+@keyframes content {
+    0% {
+        content: "";
+    }
+
+    1.5% {
+        content: "D";
+    }
+
+    3% {
+        content: "De";
+    }
+
+    4.5% {
+        content: "Dev";
+    }
+
+    6% {
+        content: "Deve";
+    }
+
+    7.5% {
+        content: "Devel";
+    }
+
+    9% {
+        content: "Develo";
+    }
+
+    10.5% {
+        content: "Develop";
+    }
+
+    12% {
+        content: "Develope";
+    }
+
+    13.5% {
+        content: "Developer|";
+    }
+
+    15% {
+        content: "Develope|";
+    }
+
+    16.5% {
+        content: "Develop|";
+    }
+
+    18% {
+        content: "Develo|";
+    }
+
+    19.5% {
+        content: "Devel|";
+    }
+
+    21% {
+        content: "Deve|";
+    }
+
+    22.5% {
+        content: "Dev|";
+    }
+
+    24% {
+        content: "De|";
+    }
+
+    25.5% {
+        content: "D|";
+    }
+
+    27% {
+        content: "|";
+    }
+
+    28.5% {
+        content: "D";
+    }
+
+    30% {
+        content: "De";
+    }
+
+    31.5% {
+        content: "Des";
+    }
+
+    33% {
+        content: "Desi";
+    }
+
+    34.5% {
+        content: "Desig";
+    }
+
+    36% {
+        content: "Design";
+    }
+
+    37.5% {
+        content: "Designe";
+    }
+
+    39% {
+        content: "Designer";
+    }
+
+    40.5% {
+        content: "Designer|";
+    }
+
+    42% {
+        content: "Designe|";
+    }
+
+    43.5% {
+        content: "Design|";
+    }
+
+    45% {
+        content: "Desig|";
+    }
+
+    46.5% {
+        content: "Desi|";
+    }
+
+    48% {
+        content: "Des|";
+    }
+
+    49.5% {
+        content: "De|";
+    }
+
+    51% {
+        content: "D|";
+    }
+
+    52.5% {
+        content: "|";
+    }
+
+    54% {
+        content: "L";
+    }
+
+    55.5% {
+        content: "La";
+    }
+
+    57% {
+        content: "Lar";
+    }
+
+    58.5% {
+        content: "Larr";
+    }
+
+    60% {
+        content: "Larry";
+    }
+
+    61.5% {
+        content: "Larry ";
+    }
+
+    63% {
+        content: "Larry D";
+    }
+
+    64.5% {
+        content: "Larry Da";
+    }
+
+    66% {
+        content: "Larry Dan";
+    }
+
+    67.5% {
+        content: "Larry Dani";
+    }
+
+    69% {
+        content: "Larry Danie";
+    }
+
+    70.5% {
+        content: "Larry Daniel";
+    }
+
+    72% {
+        content: "Larry Daniels";
+    }
+
+    73.5% {
+        content: "Larry Daniels|";
+    }
+
+    75% {
+        content: "Larry Daniel|";
+    }
+
+    76.5% {
+        content: "Larry Danie|";
+    }
+
+    78% {
+        content: "Larry Dani|";
+    }
+
+    80% {
+        content: "Larry Dan|";
+    }
+
+    82% {
+        content: "Larry Da|";
+    }
+
+    84% {
+        content: "Larry D|";
+    }
+
+    86% {
+        content: "Larry |";
+    }
+
+    88% {
+        content: "Larry|";
+    }
+
+    90% {
+        content: "Larr|";
+    }
+
+    93% {
+        content: "Lar|";
+    }
+
+    96% {
+        content: "La|";
+    }
+
+    99% {
+        content: "L|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+.home .social {
+    width: 16%;
+}
+
+.home .social .cover {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.under-line {
+    position: relative
+}
+
+.under-line::after {
+    content: "";
+    position: absolute;
+    bottom: 7%;
+    left: 14%;
+    width: 38px;
+    height: 2px;
+    background-color: white;
+
+}
+
+ul {
+    font-size: 15px;
+}
+
+.out {
+    border-radius: 4px;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 22px;
+    box-shadow: 2px 2px 2px 2px rgb(177, 175, 175) inset;
+}
+
+.in {
+    border-radius: 4px;
+    background-color: black;
+    width: 95%;
+    height: 22;
+}
+
+.in1 {
+    width: 80%;
+}
+
+.in2 {
+    width: 90%;
+}
+
+.in p {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.but1 {
+    width: 120px;
+    height: 35px;
+    transition: all 1s;
+}
+
+.but2 {
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    transition: all 1s;
+}
+
+.but2:hover {
+    background-color: white;
+    color: black;
+}
+
+.but1:hover {
+    background-color: black;
+    color: white;
+}
+
+.About .bgg {
+    background-image: url(../images/images/dots.png);
+    width: 85%;
+    height: 95%;
+    top: 5%;
+    left: 40px;
+}
+
+
+
+.About img {
+    width: 90%;
+    height: 100%;
+    top: -3%;
+    right: -8%;
+}
+
+.Blog img {
+    width: 100px;
+    height: 100px;
+}
+
+.Blog {
+    margin-top: 10%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.SERVICES {
+    background-color: rgb(241, 239, 239);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(241, 239, 239);
+    transition: all 1s;
+}
+
+.card-body:hover .icon {
+    background-color: black;
+    color: white;
+}
+
+.icon2:hover .icon{
+    background-color: black;
+    color: white;
+}
+
+.SERVICES .head h1 {
+    position: relative;
+}
+
+.users {
+    background-color: rgb(235, 232, 232);
+    height: 300px;
+    overflow: hidden;
+}
+
+.user i {
+    font-size: 25px;
+}
+
+.user h5{
+    color: #b4b0b0;
+}
+
+.Portfolio ul {
+    width: 350px;
+}
+
+.bord {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+
+}
+
+.bord:hover {
+    background-color: black;
+    color: white;
+}
+
+.lay {
+    top: 22px;
+    width: 90%;
+    height: 90%;
+    visibility: hidden;
+    transition: all 2s;
+}
+
+.image:hover .lay {
+    top: 15px;
+    visibility: visible;
+}
+
+.layer-social {
+    width: 65px;
+    padding-top: 15px;
+    transition: all 1s;
+}
+.image:hover .layer-social{
+    padding-top: 0px;
+}
+.layer2 {
+    width: 95%;
+    height: 95%;
+    top: 2%;
+    transition: all 1s;
+    visibility: hidden;
+}
+
+.up:hover .layer2 {
+    transform: rotateY(360deg);
+    visibility: visible;
+}
+
+.up img {
+    transition: transform 1s;
+}
+
+.up:hover img {
+    transform: scale(1.2);
+}
+
+.name {
+    width: 49%;
+    border: none;
+    background-color: #f4f4f4;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.sub {
+    border: none;
+    background-color: #f4f4f4;
+    color: #b4b0b0;
+    border-radius: 5px;
+}
+
+.Portfolio .nav-link {
+    color: black !important;
+}
+
+.Portfolio .nav-item {
+    color: black !important;
+}
+
+.Portfolio .nav-item button {
+    background-color: transparent !important;
+}
+
+.SERVICES .container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Portfolio .container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact .container {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.but {
+    width: 130px;
+}
+
+.contact h5 {
+    color: #b4b0b0;
+}
+
+.team2 {
+
+    background-color: #343434;
+}
+.team2:hover .layer2 {
+    transform: rotateY(360deg);
+    visibility: visible;
+}
+.SERVICES {
+    background-color: #f4f4f4;
+}
+
+.team {
+    background-color: #f4f4f4;
+}
+
+.Blog {
+    background-color: #f4f4f4;
+}
+
+.bg {
+    background-image: url(../images/images/dots.png);
+    position: absolute;
+    height: 25px;
+    width: 22%;
+    bottom: 2px;
+}
+
+.navbar-nav .nav-link {
+    height: 30px;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 1px solid black !important;
+
+}
+
+.nav-pills .nav-link.active {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
